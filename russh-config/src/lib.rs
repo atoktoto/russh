@@ -39,7 +39,7 @@ pub struct HostConfig {
     pub proxy_command: Option<String>,
     /// http://man.openbsd.org/OpenBSD-current/man5/ssh_config.5#ProxyJump
     pub proxy_jump: Option<String>,
-    pub /// http://man.openbsd.org/OpenBSD-current/man5/ssh_config.5#AddKeysToAgent
+    /// http://man.openbsd.org/OpenBSD-current/man5/ssh_config.5#AddKeysToAgent
     pub add_keys_to_agent: Option<AddKeysToAgent>,
     /// http://man.openbsd.org/OpenBSD-current/man5/ssh_config.5#UserKnownHostsFile
     pub user_known_hosts_file: Option<PathBuf>,
